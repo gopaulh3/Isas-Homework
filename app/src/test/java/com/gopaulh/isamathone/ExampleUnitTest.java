@@ -1,4 +1,4 @@
-package com.example.isamathone;
+package com.gopaulh.isamathone;
 
 import org.junit.Test;
 

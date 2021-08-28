@@ -1,4 +1,4 @@
-package com.example.isamathone;
+package com.gopaulh.isamathone;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;

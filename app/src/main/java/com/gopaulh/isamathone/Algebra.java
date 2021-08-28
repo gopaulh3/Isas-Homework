@@ -1,4 +1,4 @@
-package com.example.isamathone;
+package com.gopaulh.isamathone;
 
 import android.widget.Button;
 import android.widget.TextView;

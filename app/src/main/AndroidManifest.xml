@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.isamathone">
+    package="com.gopaulh.isamathone">
 
     <application
         android:allowBackup="true"
@@ -10,12 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IsaMathOne">
         <activity
-            android:name=".GameActivity"
+            android:name="com.gopaulh.isamathone.GameActivity"
             android:exported="true"
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".MainActivity"
+            android:name="com.gopaulh.isamathone.MainActivity"
             android:exported="true"
             android:configChanges="orientation"
             android:screenOrientation="portrait">

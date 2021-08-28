@@ -28,6 +28,7 @@
             android:layout_height="match_parent"
             android:fontFamily="cursive"
             android:gravity="center"
+            android:background="@color/white"
             android:text="Book Title"
             android:textColor="@color/darkRed"
             android:textSize="13sp"
