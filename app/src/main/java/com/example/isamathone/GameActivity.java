@@ -99,7 +99,7 @@ public class GameActivity extends AppCompatActivity {
         gridLayout.setVisibility(View.VISIBLE);
         score = 0;
         numberOfQuestions = 0;
-        timerTextView.setText("20s");
+        timerTextView.setText("60s");
         scoreTextView.setText("0.00");
         System.out.println("Here it is  => "+scoreTextView.getText().toString());
         newQuestion(categoryChosen);
@@ -107,7 +107,7 @@ public class GameActivity extends AppCompatActivity {
         goBackButton.setVisibility(View.INVISIBLE);
         resultTextView.setText("");
 
-        new CountDownTimer(20000, 1000) {
+        new CountDownTimer(60000, 1000) {
 
             @Override
             public void onTick(long l) {
