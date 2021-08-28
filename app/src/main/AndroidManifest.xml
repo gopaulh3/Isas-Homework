@@ -11,10 +11,14 @@
         android:theme="@style/Theme.IsaMathOne">
         <activity
             android:name=".GameActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
